@@ -14,12 +14,34 @@
 
     <article>
 
-        <button id="pedra"> Pedra </button>
-        <button id="papel"> Papel </button>
-        <button id="tesoura"> Tesoura </button>
+        <button onclick="ativarGame('1')" > Pedra </button>
+        <button onclick="ativarGame('2')" > Papel </button>
+        <button onclick="ativarGame('3')" > Tesoura </button>
 
     </article>
-    
-    <script src="/JS/index.js"></script>
+
+    <article>
+        <h2> a escolha da maquina é: </h1> <div id="escolhaMaquina">  </div> </h2>
+        <h2>quem venceu a rodada: <div id="vencedor">  </div></h2>
+    </article>
+
+    <article>
+
+        <h1> Quantas vezes quem ganhou: </h1>
+
+        <div>
+            <div>
+                <h2>Jogador: <div id="jogador"></div></h2>
+            </div>
+            <div>
+                <h2>Maquina: <div id="maquina"></div></h2>
+            </div>
+
+        </div>
+
+    </article>
+
+
+    <script src="/JS/teste.js"></script>
 </body>
 </html>
